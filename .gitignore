@@ -1,6 +1,9 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+public String[] fizzArray2(int n) {
+  String[] ary = new String[n];
+  for (int q=0; q<n; q++)
+  {
+  ary[q] = String.valueOf(q);
+  }
+  
+  return ary;
+}
